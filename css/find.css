@@ -17,20 +17,23 @@
   margin-top: 20px;
   font-size: 14px;
   display: block;
+  color: #ffffff;
 }
 
 .find .header-btn__icon {
   font-size: 12px;
+  color: #ffffff;
 }
 
 .find .find__recommended {
   margin-top: 30px;
   padding-top: 15px;
-  border-top: 1px solid #f7f7f7;
+  border-top: 1px solid #444343;
 }
 
 .find .find__title {
   font-size: 12px;
   opacity: 0.7;
   margin-bottom: 20px;
+  color: #ffffff;
 }

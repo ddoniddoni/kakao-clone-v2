@@ -2,8 +2,10 @@
 .more__suggestions-list {
   margin: 30px 0px;
   display: flex;
+  justify-content: space-around;
   margin-left: 10px;
   align-items: center;
+  color: #ffffff;
 }
 
 .more__btn-list .more__btn,
@@ -15,19 +17,72 @@
   cursor: pointer;
 }
 
+.more__pay {
+  width: 100%;
+  background-color: #444343;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 0px;
+  align-items: center;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.more__pay .more__pay-left {
+  margin-left: 15px;
+  color: #ffffff;
+  font-size: 13px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+}
+
+.more__pay-left .more__pay-left-money {
+  margin-left: 10px;
+}
+
+.more__pay-left .more__pay-left-text {
+  margin-left: 10px;
+  background-color: #000000;
+  width: 30px;
+  height: 20px;
+  padding-top: 4px;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.more__pay .more__pay-right {
+  margin-left: 15px;
+  color: #ffffff;
+  font-size: 13px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+}
+
+.more__pay-right .more__pay-right-text {
+  margin-right: 15px;
+  cursor: pointer;
+}
+
 .more__btn .more__btn-title {
   font-size: 14px;
   margin-top: 15px;
 }
 
 .more .more__suggestions {
-  border-top: 1px solid #f7f7f7;
+  border-top: 1px solid #444343;
   padding-top: 20px;
 }
 
 .more .more__title {
   opacity: 0.8;
   margin-bottom: 20px;
+  color: #ffffff;
 }
 
 .suggestion .suggestion__title {
@@ -46,5 +101,5 @@
 
 .suggestion__icon i {
   font-size: 28px;
-  color: white;
+  color: #232323;
 }

@@ -2,24 +2,67 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 10px;
 }
 
 .friend .friend__avatar {
   width: 50px;
-  border-radius: 38%;
+  height: 50px;
+  border-radius: 40%;
+}
+
+.friend .friend__wrapper-icon1 {
+  background-color: rgb(245, 110, 133);
+  width: 50px;
+  height: 50px;
+  border-radius: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.friend .friend__wrapper-icon2 {
+  background-color: rgb(210, 133, 245);
+  width: 50px;
+  height: 50px;
+  border-radius: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.friend .friend__wrapper-icon3 {
+  background-color: rgb(255, 255, 0);
+  width: 50px;
+  height: 50px;
+  border-radius: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.friend .icon__avatar {
+  width: 30px;
+  height: 30px;
+  color: white;
 }
 
 .friend__avatar.g-avatar {
-  width: 70px;
+  width: 60px;
+  height: 60px;
 }
 
 .friend__avatar.m-avatar {
-  width: 60px;
+  width: 40px;
 }
 
 .friend .friend__column {
   display: flex;
   align-items: center;
+  color: #ffffff;
 }
 
 .friend .friend__avatar {
@@ -29,16 +72,19 @@
 .friend__content .friend__name {
   display: block;
   margin-bottom: 5px;
+  color: #ffffff;
 }
 
 .friend__content .friend__status,
 .friend__content .friend__bottom-text,
 .friend .chat__timestamp {
   opacity: 0.6;
+  color: #ffffff;
 }
 
 .friend__content .friend__bottom-text {
   font-size: 14px;
+  color: #ffffff;
 }
 
 .friend__content .friend__status,
@@ -51,6 +97,7 @@
   border-radius: 15px;
   border: 2px solid #52e084;
   font-size: 14px;
+  color: #ffffff;
 }
 
 .friend__now-listening span {
@@ -67,5 +114,10 @@
   border-radius: 5px;
   justify-content: center;
   align-items: center;
-  background-color: #f5f5f5;
+  background-color: #232323;
+  color: #ffffff;
+}
+
+.chats__list .chats__chat {
+  margin-top: 20px;
 }

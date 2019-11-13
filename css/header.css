@@ -8,6 +8,7 @@
 .header .header__title {
   font-size: 24px;
   font-weight: 600;
+  color: #ffffff;
 }
 
 .header .header__icon {
@@ -19,6 +20,7 @@
 .header .header__header-column {
   display: flex;
   align-items: center;
+  color: #ffffff;
 }
 
 .header .header__back-btn {

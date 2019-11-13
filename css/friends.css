@@ -1,13 +1,31 @@
-.friends .friends__plus {
-  padding: 20px 0px;
-  border-bottom: 1px solid #f7f7f7;
-  border-top: 1px solid #f7f7f7;
+.friends .friends__birth {
+  padding-top: 15px;
+  border-top: 1px solid #444343;
   margin: 20px 0px;
+  color: #ffffff;
+}
+
+.friends .friends__plus {
+  padding-top: 15px;
+  border-top: 1px solid #444343;
+  margin: 20px 0px;
+  color: #ffffff;
+}
+
+.friends .friends__channel {
+  padding: 20px 0px;
+  border-top: 1px solid #444343;
+  border-bottom: 1px solid #444343;
+  margin: 20px 0px;
+  color: #ffffff;
 }
 
 .friends__plus .friends__title,
-.friends__list .friends__title {
+.friends__list .friends__title,
+.friends__birth .friends__birth-title,
+.friends__channel .friends__channel-title {
   font-size: 14px;
   opacity: 0.6;
   margin-bottom: 12px;
+  color: #ffffff;
 }

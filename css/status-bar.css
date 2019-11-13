@@ -7,8 +7,13 @@
 
 .status-bar i {
   font-size: 14px;
+  color: #f7f7f7;
 }
 
 .status-bar .status-bar__battery-level {
   margin-left: 5px;
+}
+
+.status-bar__column {
+  color: #ffffff;
 }
