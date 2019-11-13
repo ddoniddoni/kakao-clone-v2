@@ -1,5 +1,6 @@
 .header-wrapper {
   position: fixed;
+  z-index: 2;
   top: 0px;
   width: 100%;
   padding: 5px 0px;
@@ -131,16 +132,28 @@
   align-self: flex-end;
 }
 
+@keyframes spin {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateY(1turn);
+  }
+}
+
 .incoming-message img {
   width: 30px;
   border-radius: 15px;
   margin-right: 15px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0 13px 27px -15px, rgba(0, 0, 0, 0.3) 0 18px 16px -18px,
+    rgba(0, 0, 0, 0.025) 0 -6px 16px -6px;
+  animation: spin 1s linear infinite;
 }
 
 .message .message__bubble {
   background-color: white;
-  box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3),
-    0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+  box-shadow: rgba(50, 50, 93, 0.25) 0 13px 27px -15px, rgba(0, 0, 0, 0.3) 0 18px 16px -18px,
+    rgba(0, 0, 0, 0.025) 0 -6px 16px -6px;
   padding: 10px 20px;
   border-radius: 20px;
   color: white;
